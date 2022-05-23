@@ -47,9 +47,9 @@ html {
 }
 
 /* Navigation Bar: List Styling  */
-#navbar {
-   outline: 2px solid red; 
-} 
+/* #navbar {
+  
+} */ 
 
 #navbar ul {
     display: flex;

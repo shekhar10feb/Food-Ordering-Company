@@ -93,7 +93,7 @@ html {
     height: 630px;
     width: 100%;
     z-index: -1;
-    /* opacity: .89; */
+    opacity: .89;
 }
 
 #home h1 {
@@ -138,7 +138,6 @@ html {
 
 /* Client Section */
 #client-section {
-/*     height: 220px; */
     position: relative;
 }
 

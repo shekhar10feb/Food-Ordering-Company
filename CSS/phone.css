@@ -1,68 +1,76 @@
 /* Navigation */
 #navbar {
-    flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 #navbar ul li a {
-    font-size: 1.2rem;
-    padding: 0 17px;
+  font-size: 1.2rem;
+  padding: 0 17px;
 }
+
 /* Home Section */
 #home {
-    height: 500px;
-    padding: 3px 50px;
+  height: 500px;
+  padding: 3px 50px;
 }
 
 #home::before {
-    height: 600px;
+  height: 600px;
 }
 
 #home h1 {
-    font-size: 26px;
+  font-size: 26px;
 }
 
 #home p {
-    font-size: 13px;
+  font-size: 13px;
 }
 
 /* Services Section */
 #services {
-    flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 #services .box {
-    max-width: 90%;
-    padding: 10px 15px;
-    margin: 2px 0;
-    margin-bottom: 20px;
+  max-width: 90%;
+  padding: 10px 15px;
+  margin: 2px 0;
+  margin-bottom: 20px;
 }
 
 #services .box img {
-    height: 80px;
+  height: 80px;
 }
 
 /* Client Section */
 #clients {
-    flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 #clients img {
-    width: 150px;
-    height: auto;
+  width: 150px;
+  height: auto;
 }
 
 /* Contact Us Section */
 #contact-box form {
-    width: 80%;
+  width: 80%;
 }
-/* Footer */
 
+/* Footer */
 /* Utility Classes */
 /* .h-primary {
     font-size: 26px;
 } */
-
 .btn {
-    font-size: 13px;
-    padding: 4px 8px;
+  font-size: 13px;
+  padding: 4px 8px;
 }
+/*# sourceMappingURL=phone.css.map */
